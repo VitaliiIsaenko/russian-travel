@@ -1,0 +1,5 @@
+.header__top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 48px;
+}
