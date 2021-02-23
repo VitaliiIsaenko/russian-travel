@@ -19,12 +19,14 @@
 .header__language-option:disabled+.header__pseudo-radio {
     cursor: default;
     color: #eee;
+    opacity: 1;
 }
 
 .header__language-option:disabled:checked+.header__pseudo-radio {
     cursor: default;
     text-decoration: underline;
     color: #eee;
+    opacity: 1;
 }
 
 .header__language-option:focus+.header__pseudo-radio {}

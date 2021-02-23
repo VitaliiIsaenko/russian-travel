@@ -23,6 +23,17 @@
 @import url(../blocks/header/__pseudo-radio/header__pseudo-radio.css);
 @import url(../blocks/header/__top-bar/header__top-bar.css);
 
+/* intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__fact/intro__fact.css);
+@import url(../blocks/intro/__facts/intro__facts.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__fact-text/intro__fact-text.css);
+@import url(../blocks/intro/__fact-text/_weight/intro__fact-text_weight_bold.css);
+@import url(../blocks/intro/__fact-text/_weight/intro__fact-text_weight_normal.css);
+
 /* lead */
 
 @import url(../blocks/lead/lead.css);
@@ -35,17 +46,6 @@
 
 @import url(../blocks/list/list.css);
 
-/* intro */
-
-@import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__fact/intro__fact.css);
-@import url(../blocks/intro/__facts/intro__facts.css);
-@import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__fact-text/intro__fact-text.css);
-@import url(../blocks/intro/__fact-text/_weight/intro__fact-text_weight_bold.css);
-@import url(../blocks/intro/__fact-text/_weight/intro__fact-text_weight_normal.css);
-
 /* page */
 
 @import url(../blocks/page/page.css);
@@ -53,6 +53,7 @@
 /* photo-grid */
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 /* places */
 
