@@ -1,0 +1,9 @@
+.cover__image-container {
+    background: black;
+    opacity: .7;
+}
+
+.cover__image-container:hover {
+    /* background: black; */
+    opacity: .3;
+}

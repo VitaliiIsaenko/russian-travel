@@ -1,1 +1,10 @@
-.cover {}
+.cover {
+    max-width: 1184px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.cover:hover>.cover__image-container {
+    opacity: .5;
+}
