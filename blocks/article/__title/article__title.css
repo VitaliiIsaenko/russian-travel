@@ -1,0 +1,10 @@
+.article__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #fff;
+    width: 47%;
+    margin: 0;
+}

@@ -4,12 +4,6 @@
     font-size: 24px;
     line-height: 1.17;
     margin: 8px;
-    transition: opacity .5s;
-}
-
-.header__pseudo-radio:hover {
-    opacity: .7;
-    cursor: pointer;
 }
 
 .header__language-option:checked+.header__pseudo-radio {

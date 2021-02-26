@@ -1,10 +1,10 @@
 .cover {
     max-width: 1184px;
-    margin: auto;
+    margin: 92px auto;
     width: 100%;
     position: relative;
 }
 
-.cover:hover>.cover__image-container {
-    opacity: .5;
+.cover:hover {
+    cursor: pointer;
 }

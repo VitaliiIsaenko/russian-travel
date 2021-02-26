@@ -1,0 +1,10 @@
+.article__content {
+    display: flex;
+    padding-top: 48px;
+}
+
+@media screen and (max-width:320px) {
+    .article__content {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,10 @@
+.article__header {
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width:768px) {
+    .article__header {
+        flex-direction: column;
+    }
+}

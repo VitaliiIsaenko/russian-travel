@@ -1,0 +1,11 @@
+.article__paragraph {
+    margin: 0;
+    padding: 0px 32px 26px 32px;
+    max-width: 484px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    color: #fff;
+}
