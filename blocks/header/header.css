@@ -1,1 +1,11 @@
-.header {}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 48px;
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        padding: 28px 24px;
+    }
+}

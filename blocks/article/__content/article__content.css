@@ -1,6 +1,19 @@
 .article__content {
     display: flex;
     padding-top: 48px;
+    gap: 40px;
+}
+
+@media screen and (max-width:1024px) {
+    .article__content {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .article__content {
+        gap: 28px;
+    }
 }
 
 @media screen and (max-width:320px) {
