@@ -9,17 +9,19 @@
     margin: 0;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .article__title {
         font-size: 42px;
         line-height: 1.1;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
     .article__title {
         flex-direction: column;
         gap: 32px;
         width: 100%;
+        font-size: 32px;
+        line-height: 1.09;
     }
 }

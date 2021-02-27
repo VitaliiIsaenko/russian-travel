@@ -25,7 +25,7 @@
 
 .language-options__radio:focus+.language-options__pseudo-radio {}
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
     .language-options__pseudo-radio {
         font-size: 18px;
         line-height: 20px;
