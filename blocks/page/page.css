@@ -2,7 +2,18 @@
     background-color: #2A2C2F;
     color: #fff;
     min-width: 320px;
-    padding-bottom: 24px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width:768px) {
+    .page {
+        padding: 28px 0 24px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page {
+        padding: 16px 0 24px;
+    }
 }

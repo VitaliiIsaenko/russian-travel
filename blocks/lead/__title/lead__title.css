@@ -7,7 +7,7 @@
     text-align: center;
     color: #fff;
     max-width: 720px;
-    margin: 28px auto 32px;
+    margin: auto;
 }
 
 @media screen and (max-width:1024px) {
@@ -20,6 +20,6 @@
     .lead__title {
         font-size: 40px;
         line-height: 1.1;
-        padding: 0 10px;
+        padding: 0 16px;
     }
 }
