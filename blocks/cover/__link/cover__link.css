@@ -5,15 +5,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    top: 0;
     text-decoration: none;
-    transition: opacity .5s;
     color: #fff;
-    background-image: url(../../../images/cover-trains.jpg);
+    position: relative;
+    z-index: 1;
 }
-
-.cover__link::before {}
 
 .cover__link:hover {
     /* opacity: .7; */

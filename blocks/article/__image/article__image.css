@@ -1,18 +1,10 @@
 .article__image {
     width: 47%;
     height: 100%;
-    padding-left: 48px;
-}
-
-@media screen and (max-width:1024px) and (min-width:768px) {
-    .article__image {
-        padding-left: 24px;
-    }
 }
 
 @media screen and (max-width:768px) {
     .article__image {
         width: 100%;
-        padding-left: 0;
     }
 }
