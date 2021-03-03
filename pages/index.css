@@ -33,15 +33,13 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__content/cover__content.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__image/cover__image.css);
-@import url(../blocks/cover/__image-contaner/cover__image-container.css);
 
 /* footer */
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /* header */
 
@@ -56,15 +54,13 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__fact-text/intro__fact-text.css);
-@import url(../blocks/intro/__fact-text/_weight/intro__fact-text_weight_bold.css);
-@import url(../blocks/intro/__fact-text/_weight/intro__fact-text_weight_normal.css);
+@import url(../blocks/intro/__fact-number/intro__fact-number.css);
 
 /* language-options */
 
 @import url(../blocks/language-options/language-options.css);
 @import url(../blocks/language-options/__label/language-options__label.css);
-@import url(../blocks/language-options/__pseudo-radio/language-options__pseudo-radio.css);
-@import url(../blocks/language-options/__radio/language-options__radio.css);
+@import url(../blocks/language-options/__label/_active/language-options__label_active.css);
 
 /* lead */
 

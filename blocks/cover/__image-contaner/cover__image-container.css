@@ -1,7 +1,0 @@
-.cover__image-container {
-    opacity: .7;
-}
-
-.cover:hover>.cover__image-container {
-    opacity: .3;
-}

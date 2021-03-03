@@ -11,17 +11,14 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" alt="Логотип 'Россия'" src="images/header-logo.svg">
-            <div class="language-options">
-                <label class="language-options__label" for="ru">
-                    <input type="radio" class="language-options__radio" name="language" id="ru" value="ru" checked>
-                    <span class="language-options__pseudo-radio link">Ru</span>
-                </label>
-
-                <label class="language-options__label" for="en">
-                    <input type="radio" class="language-options__radio" name="language" id="en" value="en">
-                    <span class="language-options__pseudo-radio link">En</span>
-                </label>
-            </div>
+            <ul class="language-options">
+                <li>
+                    <a class="language-options__label language-options__label_active link" href="#">Ru</a>
+                </li>
+                <li>
+                    <a class="language-options__label link" href="#">En</a>
+                </li>
+            </ul>
         </header>
 
         <main>
@@ -37,27 +34,23 @@
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян
                     и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила
                     их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-                <ul class="intro__facts list">
+                <ul class="intro__facts">
                     <li class="intro__fact">
-                        <p class="intro__fact-text intro__fact-text_weight_bold">Часовых поясов</p>
-                        <p class="intro__fact-text intro__fact-text_weight_normal">11</p>
+                        <p class="intro__fact-text">Часовых поясов <span class="intro__fact-number">11</span></p>
                     </li>
                     <li class="intro__fact">
-                        <p class="intro__fact-text intro__fact-text_weight_bold">Объектов природного наследия ЮНЕСКО</p>
-                        <p class="intro__fact-text intro__fact-text_weight_normal">12</p>
+                        <p class="intro__fact-text">Объектов природного наследия ЮНЕСКО <span class="intro__fact-number">12</span></p>
                     </li>
 
                     <li class="intro__fact">
-                        <p class="intro__fact-text intro__fact-text_weight_bold">Объектов культурного наследия</p>
-                        <p class="intro__fact-text intro__fact-text_weight_normal">16</p>
+                        <p class="intro__fact-text">Объектов культурного наследия <span class="intro__fact-number">16</span></p>
                     </li>
                     <li class="intro__fact">
-                        <p class="intro__fact-text intro__fact-text_weight_bold">Природных заповедников</p>
-                        <p class="intro__fact-text intro__fact-text_weight_normal">105</p>
+                        <p class="intro__fact-text">Природных заповедников <span class="intro__fact-number">105</span>
+                        </p>
                     </li>
                     <li class="intro__fact">
-                        <p class="intro__fact-text intro__fact-text_weight_bold">Аэропортов</p>
-                        <p class="intro__fact-text intro__fact-text_weight_normal">241</p>
+                        <p class="intro__fact-text">Аэропортов <span class="intro__fact-number">241</span></p>
                     </li>
                 </ul>
             </section>
@@ -78,10 +71,10 @@
             </section>
 
             <section class="places">
-                <ul class="places__articles list">
+                <ul class="places__articles">
                     <li class="article">
                         <div class="article__header">
-                            <h1 class="article__title">Куршская коса</h1>
+                            <h2 class="article__title">Куршская коса</h2>
                             <div class="article__source">
                                 <p class="article__label">URL</p>
                                 <a class="article__website link link_decoration_underline" href="http://park-kosa.ru" target="_blank" rel="noopener">park-kosa.ru</a>
@@ -101,7 +94,7 @@
 
                     <li class="article">
                         <div class="article__header">
-                            <h1 class="article__title">Кольский</h1>
+                            <h2 class="article__title">Кольский</h2>
                             <div class="article__source">
                                 <p class="article__label">URL</p>
                                 <a class="article__website link link_decoration_underline" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener">National Geographic</a>
@@ -119,7 +112,7 @@
 
                     <li class="article">
                         <div class="article__header">
-                            <h1 class="article__title">Алтай</h1>
+                            <h2 class="article__title">Алтай</h2>
                             <div class="article__source">
                                 <p class="article__label">URL</p>
                                 <a class="article__website link link_decoration_underline" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" rel="noopener">Facebook</a>
@@ -138,7 +131,7 @@
 
                     <li class="article">
                         <div class="article__header">
-                            <h1 class="article__title">Зимний Байкал</h1>
+                            <h2 class="article__title">Зимний Байкал</h2>
                             <div class="article__source">
                                 <p class="article__label">URL</p>
                                 <a class="article__website link link_decoration_underline" href="https://vk.com/baikalmile" target="_blank" rel="noopener">https://vk.com/baikalmile</a>
@@ -150,14 +143,15 @@
                                 <p class="article__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
                                 </p>
                                 <p class="article__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте
-                                    2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+                                    2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+                                </p>
                             </div>
                         </div>
                     </li>
 
                     <li class="article">
                         <div class="article__header">
-                            <h1 class="article__title">Карелия</h1>
+                            <h2 class="article__title">Карелия</h2>
                             <div class="article__source">
                                 <p class="article__label">URL</p>
                                 <a class="article__website link link_decoration_underline" href="http://vodlozero.ru/" target="_blank" rel="noopener">http://vodlozero.ru/</a>
@@ -176,20 +170,16 @@
             </section>
 
             <section class="cover">
-                <div class="cover__image-container">
-                    <img class="cover__image" src="images/cover-trains.jpg" alt="Поезда">
-                </div>
-                <a class="cover__content link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener">
-                    <h1 class="cover__title">До Байкала «на собаках»</h1>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-                    </p>
+                <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener">
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
                 </a>
             </section>
         </main>
 
         <footer class="footer">
             <nav class="menu">
-                <ul class="menu__list list">
+                <ul class="menu__list">
                     <li>
                         <a class="menu__link link" href="https://yandex.ru/maps" target="_blank" rel="noopener">Карты</a>
                     </li>
@@ -208,9 +198,7 @@
                 </ul>
             </nav>
 
-            <div class="footer__copyright">
-                <p class="footer__author">&copy; 2021. Виталий Исаенко</p>
-            </div>
+            <p class="footer__author">&copy; 2021. Виталий Исаенко</p>
         </footer>
     </div>
 </body>
