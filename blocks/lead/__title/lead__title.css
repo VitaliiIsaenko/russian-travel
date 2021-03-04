@@ -10,13 +10,13 @@
     margin: auto;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .lead__title {
         padding: 0 24px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .lead__title {
         font-size: 40px;
         line-height: 1.1;

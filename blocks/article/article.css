@@ -16,13 +16,13 @@
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .article {
         padding: 0 24px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .article {
         padding: 0;
     }
